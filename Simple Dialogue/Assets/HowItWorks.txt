@@ -1,0 +1,22 @@
+** Meant to be read from the inspector for best formatting **
+
+-  Order of Execution
+
+The StartButton has the DialogueTrigger script. Should there be multiple triggers (different NPCs, signs, buttons or radial triggers that can initiate a dialogue), just attach the DialogueTrigger script to it. In this script you can set what the name and dialogue should be. 
+
+It is able to do so due to the custom Dialog data type object we created with the Dialogue script. The Dialogue C# script does not behave like a standard Unity C# script that attaches to an object. Rather it is a Serializable class that simple has 2 fields within it that is used as a struct or object by other scripts/objects.
+
+This script will find all objects in the scene that has the DialogueManager script attached to it. There should only be one, which is the DialogueManager object itself with the DialogueManager script attached to it. The DialogueManager is what will facilitate the dialogue in the game, it has all of the functions that involve enqueuing, and dequeuing the dialogue lines, and ending the dialogue.
+
+-  How the Canvas UI remains relatively the same on all HD screens on different devices
+
+Under Canvas in the inspector, under Canvas Scaler make sure the UI Scale Mode – Scale with Screen Size is selected and set the Reference Resolution to be 1920 x 1080.
+
+-  How the StartButton triggers a Dialogue Sequence
+
+Under StartButton in the inspector attach the DialogueTrigger script to it. Fill in the name of the NPC / Object talking under the Name slot and enter the conversation under Lines. Add an OnClick() event and drag and drop the DialogueTrigger script on the slot that says ‘None (Object)’ – this slot is looking for the script or object that has the functionality that will happen when the button event is triggered. From there click on the drop down menu that is looking for which function it needs to invoke and select the TriggerDialogue() function.
+
+-  How the Proceed Button triggers the next line in a dialogue
+
+Under the Proceed Button, add an OnClick() event and drag and drop the DialogueManager object into the ‘None (Object)’ slot. On the drop down menu looking for a function, call the PrintNextLine() function.
+

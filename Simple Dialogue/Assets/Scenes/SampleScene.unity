@@ -305,6 +305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f5864c9cac80e4db79ccdcc5792dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameText: {fileID: 208513553}
+  dialogueText: {fileID: 135764034}
+  animator: {fileID: 764408903}
+  dialogueWaitTime: 8
 --- !u!4 &321718169
 Transform:
   m_ObjectHideFlags: 0
@@ -4250,6 +4254,7 @@ GameObject:
   - component: {fileID: 764408900}
   - component: {fileID: 764408902}
   - component: {fileID: 764408901}
+  - component: {fileID: 764408903}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -4292,7 +4297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0.81960785}
+  m_Color: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0.94509804}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4315,6 +4320,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764408899}
   m_CullTransparentMesh: 0
+--- !u!95 &764408903
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764408899}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7e719c316176e440b17e08e5d8daf28, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &766881918
 GameObject:
   m_ObjectHideFlags: 0
@@ -9681,7 +9705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0.8235294}
+  m_Color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0.94509804}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -9738,7 +9762,7 @@ GameObject:
   - component: {fileID: 2137538622}
   - component: {fileID: 2137538621}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
