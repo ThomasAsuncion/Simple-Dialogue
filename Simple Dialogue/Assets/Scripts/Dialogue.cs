@@ -10,7 +10,9 @@ using UnityEngine;
 [System.Serializable]  
 public class Dialogue
 {
-    public string name;     // NPC or Player Name that is currently talking 
+    public string name;     // NPC or Player Name that is currently talking
+    
+    [TextArea(3, 10)]       // Reformats the Text Box sizes in the Inspector so that it doesn't appear as one single line
     public string[] lines;  // The sentences/dialogue lines that will be loaded into the Queue
 
 
