@@ -54,6 +54,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    // Coroutine - must be invoked by StartCoroutine
     IEnumerator TypewriteLine (string dialogueLine)
     {
         dialogueText.text = "";     // Intialize the UI dialogue text value to an empty string (since this will typewrite each char one by one)
