@@ -5,6 +5,6 @@ A simple dialogue system made with Unity (ver. 2019.3.8f1). This dialogue system
 * Dialogue Trigger
 * Named Conversations
 * Multiple Lines of Conversations
-* Basic trigger dialogue animation
+* Basic animations
 * Typerwriter effect on dialogue text
 * Skipping prevention
