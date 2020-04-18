@@ -1,4 +1,4 @@
-# Simple-Dialogue
+# Simple Dialogue
 
 A simple dialogue system made with Unity (ver. 2019.3.8f1). This dialogue system contains the following features:
 
