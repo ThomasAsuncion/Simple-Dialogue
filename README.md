@@ -8,9 +8,10 @@ A simple dialogue system made with Unity (ver. 2019.3.8f1).
 </p>
 
 ## Dialogue Features
-- This dialogue system supports multiple lines of dialogue. 
-- Animations and effects have been implanted to make it more visually appealing as well as the ability to adjust dialogue speed. 
-- Skipping prevention has been implemented.
-- Triggering the dialogue is as easy as attaching the Dialogue Trigger script to the object that will initiate a conversation.  
+- This dialogue system supports multiple lines of dialogue 
+- Animations and effects have been implanted to make it more visually appealing
+- Dialogue speed is adjustable
+- Skipping prevention has been implemented
+- Triggering the dialogue is as easy as attaching the DialogueTrigger script to the object that will initiate a conversation
 
 
