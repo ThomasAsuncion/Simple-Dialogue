@@ -9,4 +9,4 @@ A simple dialogue system made with Unity (ver. 2019.3.8f1). This dialogue system
 * Typerwriter effect on dialogue text
 * Skipping prevention
 
-https://media.giphy.com/media/j5saVW9elD41YdJmlT/source.mp4
+![ProjectPreview](https://media.giphy.com/media/j5saVW9elD41YdJmlT/giphy.gif)
