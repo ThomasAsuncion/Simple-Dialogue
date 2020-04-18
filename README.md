@@ -16,6 +16,5 @@ A simple dialogue system made with Unity (ver. 2019.3.8f1).
 
 -------------------
 
-<p align="center">
 A special thanks to [Brackeys](https://github.com/Brackeys) for his tutorial on Dialogue Managers in Unity!
-</p>
+
