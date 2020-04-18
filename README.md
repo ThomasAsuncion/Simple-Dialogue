@@ -7,4 +7,4 @@ A simple dialogue system made with Unity (ver. 2019.3.8f1). This dialogue system
 * Multiple Lines of Conversations
 * Basic trigger dialogue animation
 * Typerwriter effect on dialogue text
-* Prevention on skipping dialogue while the line is still typing
+* Skipping prevention
