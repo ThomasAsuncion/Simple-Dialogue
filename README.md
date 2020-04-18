@@ -1,6 +1,8 @@
 # Simple Dialogue
 
+<p align="center">
 *Demo of the Dialogue System*
+</p>
 
 <p align="center">
   <img width="640" height="360" src="https://media.giphy.com/media/j5saVW9elD41YdJmlT/giphy.gif">
