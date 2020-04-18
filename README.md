@@ -1,6 +1,6 @@
 # Simple Dialogue
 <p align="center">
-A simple dialogue system made with Unity (ver. 2019.3.8f1). 
+Made with Unity (ver. 2019.3.8f1). 
 </p>
 
 <p align="center">
