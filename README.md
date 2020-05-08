@@ -13,6 +13,7 @@ Made with Unity (ver. 2019.3.8f1).
 - Dialogue speed is adjustable
 - Skipping prevention has been implemented
 - Triggering the dialogue is as easy as attaching the DialogueTrigger script to the object that will initiate a conversation
+- Dialogue Speed can be adjusted in the inspector
 
 A special thanks to [Brackeys](https://github.com/Brackeys) for his tutorial on Dialogue Managers in Unity!
 
