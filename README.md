@@ -10,10 +10,10 @@ Made with Unity (ver. 2019.3.8f1).
 ## Dialogue Features
 - This dialogue system supports multiple lines of dialogue 
 - Animations and effects have been implanted to make it more visually appealing
-- Dialogue speed is adjustable
+- Dialogue Speed can be adjusted in the inspector
 - Skipping prevention has been implemented
 - Triggering the dialogue is as easy as attaching the DialogueTrigger script to the object that will initiate a conversation
-- Dialogue Speed can be adjusted in the inspector
+
 
 A special thanks to [Brackeys](https://github.com/Brackeys) for his tutorial on Dialogue Managers in Unity!
 
